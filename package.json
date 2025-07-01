@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Just a bot messenger",
   "license": "ISC",
-  "author": "Tom x honaki-dev",
+  "author": "Tom, Honaki",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
