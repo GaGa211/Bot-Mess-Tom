@@ -20,16 +20,3 @@ async function main() {
 }
 
 main();
-//   {
-//   type: 'message',
-//   senderID: '100063801026792',
-//   threadID: '8072489162853545',
-//   messageID: 'mid.$gAByt4tkBTKmd-oCwFGXyTtnIXwKv',
-//   args: [ 'Hhh' ],
-//   body: 'Hhh',
-//   attachments: [],
-//   mentions: {},
-//   timestamp: '1751427803156',
-//   isGroup: true,
-//   participantIDs: [ '100082616674011', '61556821182282', '100063801026792' ]
-// }
