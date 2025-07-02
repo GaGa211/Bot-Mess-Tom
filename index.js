@@ -8,7 +8,9 @@ const client = {
 const loginHandle = (error, api) => {
     if (error) return console.error("Error during login:", error);
     console.log("\nLogged in successfully!");
-
+    api.setOptions({
+        listenEvents: true // enable for join/leave/etc events
+    });
     ["event", "command"].forEach((handler) => {
         require(`./handlers/${handler}`)(api, client);
     });
